@@ -1,0 +1,8 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+
+127.0.0.1	E6440
+::1		E6440
+127.0.1.1	E6440.localdomain E6440
+
+

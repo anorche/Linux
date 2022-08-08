@@ -1,0 +1,14 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+UUID=ccb0c49d-5826-4402-bb2e-befb2f96932b	/         	ext4      	rw,relatime	0 1
+
+# /dev/sda1
+UUID=07CD-01C9      	/efi      	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# hdd
+UUID=0db31a9a-aff6-434c-9f31-31b7a80d4889 /home/anorche/HDD auto auto,defaults,nofail 0 0
+# msata
+UUID=dc3e2737-d37e-4723-96d4-d800481d88f4 /home/anorche/msata auto auto,defaults,nofail 0 0
